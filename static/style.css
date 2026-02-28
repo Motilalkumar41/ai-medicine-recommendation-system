@@ -1,0 +1,125 @@
+/* Background */
+bodyy {
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://media.istockphoto.com/photos/medicine-doctor-and-stethoscope-in-hand-touching-icon-medical-network-picture-id823767128?k=6&m=823767128&s=612x612&w=0&h=sLvNRI6Ma_z5_NsRqBniXdQ8h2PACvTR-V_4dEpyXMc=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://media.istockphoto.com/photos/medicine-doctor-and-stethoscope-in-hand-touching-icon-medical-network-picture-id823767128?k=6&m=823767128&s=612x612&w=0&h=sLvNRI6Ma_z5_NsRqBniXdQ8h2PACvTR-V_4dEpyXMc=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 🔥 THIS IS KEY */
+}
+
+.content {
+  flex: 1;
+}
+
+
+/* Form box */
+.form-box {
+  max-width: 600px;
+  background: black;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Result box spacing */
+.result-box {
+  margin-bottom: 40px;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+/* Footer styles */
+html, body {
+  min-height: 100%;
+  margin: 0;
+}
+
+
+
+/* ========== GLASS BASE CLASS ========== */
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+/* ========== GLASS SELECT BOX ========== */
+.glass-select {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.glass-select option {
+  background: rgba(0, 0, 0, 0.85); /* dropdown list glass-dark */
+  color: #ffffff;
+}
+
+/* Focus effect */
+.glass-select:focus {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  border-color: #ffffff;
+}
+
+
+/* ---------- GLASS EFFECT (Reusable) ---------- */
+.glass {
+  background: rgba(255, 255, 255, 0.12); /* transparent white */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.footer-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer-text,
+.footer-credit {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+    

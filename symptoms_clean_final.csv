@@ -1,0 +1,42 @@
+Disease,Symptom_1,Symptom_2,Symptom_3,Symptom_4
+Fungal infection,itching,skin_rash,nodal_skin_eruptions,dischromic _patches
+Allergy,itching,skin_rash,continuous_sneezing,redness_of_eyes
+GERD,acidity,indigestion,vomiting,stomach_pain
+Chronic cholestasis,itching,fatigue,yellowish_skin,yellowing_of_eyes
+Drug Reaction,skin_rash,itching,red_spots_over_body,high_fever
+Peptic ulcer diseae,acidity,stomach_pain,abdominal_pain,vomiting
+AIDS,fatigue,weight_loss,muscle_wasting,high_fever
+Diabetes ,polyuria,fatigue,weight_loss,irritability
+Gastroenteritis,vomiting,diarrhoea,abdominal_pain,dehydration
+Bronchial Asthma,breathlessness,wheezing,cough,chest_pain
+Hypertension ,headache,chest_pain,dizziness,fatigue
+Migraine,headache,nausea,vomiting,visual_disturbances
+Cervical spondylosis,neck_pain,dizziness,weakness_in_limbs,stiff_neck
+Paralysis (brain hemorrhage),weakness_of_one_body_side,slurred_speech,loss_of_balance,headache
+Jaundice,yellowish_skin,yellowing_of_eyes,dark_urine,fatigue
+Malaria,high_fever,chills,sweating,headache
+Chicken pox,skin_rash,fever,blister,red_spots_over_body
+Dengue,high_fever,muscle_pain,joint_pain,red_spots_over_body
+Typhoid,high_fever,headache,abdominal_pain,constipation
+hepatitis A,fatigue,yellowing_of_eyes,abdominal_pain,loss_of_appetite
+Hepatitis B,fatigue,yellowish_skin,abdominal_pain,dark_urine
+Hepatitis C,fatigue,nausea,abdominal_pain,loss_of_appetite
+Hepatitis D,fatigue,jaundice,abdominal_pain,nausea
+Hepatitis E,fever,abdominal_pain,yellowing_of_eyes,nausea
+Alcoholic hepatitis,jaundice,abdominal_pain,vomiting,fatigue
+Tuberculosis,cough,chest_pain,breathlessness,weight_loss
+Common Cold,cough,runny_nose,sneezing,throat_irritation
+Pneumonia,cough,high_fever,chest_pain,breathlessness
+Dimorphic hemmorhoids(piles),pain_in_anal_region,bloody_stool,irritation_in_anus,constipation
+Heart attack,chest_pain,fast_heart_rate,sweating,shortness_of_breath
+Varicose veins,swollen_legs,prominent_veins_on_calf,painful_walking,cramps
+Hypothyroidism,fatigue,weight_gain,cold_hands_and_feets,lethargy
+Hyperthyroidism,weight_loss,anxiety,fast_heart_rate,sweating
+Hypoglycemia,dizziness,sweating,fatigue,slurred_speech
+Osteoarthristis,joint_pain,swelling_joints,movement_stiffness,knee_pain
+Arthritis,joint_pain,swelling_joints,stiffness,fatigue
+(vertigo) Paroymsal  Positional Vertigo,spinning_movements,loss_of_balance,dizziness,unsteadiness
+Acne,pus_filled_pimples,skin_rash,blackheads,inflammatory_nails
+Urinary tract infection,burning_micturition,bladder_discomfort,continuous_feel_of_urine,foul_smell_of urine
+Psoriasis,skin_peeling,silver_like_dusting,inflammatory_nails,red_spots_over_body
+Impetigo,blister,red_sore_around_nose,yellow_crust_ooze,skin_rash

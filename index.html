@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <title>Health Care Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <!-- for footer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Health Care Center</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/developer">Developer</a></li>
+        <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- TITLE -->
+ <main class="content">
+<h2 class="text-center mt-4 text-white">AI Disease Prediction System</h2>
+
+<!-- MAIN FORM -->
+<div class="container form-box glass mt-4 p-4">
+
+
+  <form action="/predict" method="post">
+
+    <div class="mb-3 form-control glass-select">
+      <label class="form-label text-white ">
+        Select Test Case (Symptom Combination)
+      </label>
+
+      <select name="combo" class="form-control glass-select" required>
+
+        <option value="">-- Select Combination --</option>
+        <option value="malaria">high_fever, chills, sweating, headache</option>
+        <option value="dengue">high_fever, joint_pain, pain_behind_eyes</option>
+        <!-- <option value="viral_fever">high_fever, fatigue, body_pain</option> -->
+        <option value="typhoid">high_fever, abdominal_pain, constipation</option>
+        <option value="common_cold">sneezing, runny_nose, sore_throat</option>
+        <option value="migraine">headache, nausea, vomiting</option>
+        <!-- <option value="food_poisoning">vomiting, diarrhea, abdominal_pain</option> -->
+        <!-- <option value="gastritis">stomach_pain, acidity</option> -->
+        <!-- <option value="pneumonia">cough, chest_pain, high_fever</option> -->
+        <option value="tuberculosis">cough, weight_loss, night_sweats, high_fever</option>
+        <option value="arthritis">joint_pain, stiffness,reduced_mobility</option>
+        <option value="anxiety">sweating, dizziness, hunger, rapid_heartbeat</option>
+        <option value="insomnia">weight_loss, rapid_heartbeat, heat_intolerance, sweating</option>
+      </select>
+
+      <small class="text-warning">
+        Select one predefined symptom combination for testing
+      </small>
+    </div>
+
+    {% if message %}
+      <p class="text-warning">{{ message }}</p>
+    {% endif %}
+
+    <button type="submit" class="btn btn-danger w-100 mt-2">
+      Predict Disease
+    </button>
+
+  </form>
+</div>
+
+<!-- RESULT -->
+{% if predicted_disease %}
+<div class="container mt-4 result-box">
+
+  <h3 class="text-center text-success">
+    Predicted Disease: {{ predicted_disease }}
+  </h3>
+
+  <div class="card glass mt-3">
+  <div class="card-body">
+
+      <h5>Description</h5>
+      <p>{{ dis_des }}</p>
+
+      <h5>Precautions</h5>
+      <ul>
+        {% for i in my_precautions %}
+          <li>{{ i }}</li>
+        {% endfor %}
+      </ul>
+
+      <h5>Medications</h5>
+      <ul>
+        {% for i in medications %}
+          <li>{{ i }}</li>
+        {% endfor %}
+      </ul>
+
+      <h5>Diet</h5>
+      <ul>
+        {% for i in my_diet %}
+          <li>{{ i }}</li>
+        {% endfor %}
+      </ul>
+
+      <h5>Workout</h5>
+      <ul>
+        {% for i in workout %}
+          <li>{{ i }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</div>
+{% endif %}
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- FOOTER -->
+<footer class="footer glass_footer mt-5">
+
+  <div class="container text-center">
+
+    <h5 class="footer-title">Health Care Center</h5>
+    <p class="footer-text">
+      AI-powered Disease Prediction System using Machine Learning
+    </p>
+
+    <!-- Social Icons -->
+    <div class="social-icons mt-3">
+      <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <hr class="footer-line">
+
+    <p class="footer-credit">
+      © 2026 • Developed by <span>Motilal Kumar</span><br>
+      MCA • Machine Learning • Flask • Python
+    </p>
+
+  </div>
+</footer>
+
+
+</body>
+</html>

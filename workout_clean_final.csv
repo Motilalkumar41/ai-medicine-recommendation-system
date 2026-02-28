@@ -1,0 +1,124 @@
+id1,id2,disease,workout
+0,0,Fungal infection,Light walking
+1,1,Fungal infection,Gentle stretching
+2,2,Fungal infection,Deep breathing
+3,3,Allergy,Light yoga
+4,4,Allergy,Deep breathing
+5,5,Allergy,Walking
+6,6,GERD,Slow walking
+7,7,GERD,Deep breathing
+8,8,GERD,Light yoga after meals
+9,9,Chronic cholestasis,Slow walking
+10,10,Chronic cholestasis,Breathing exercises
+11,11,Chronic cholestasis,Gentle stretching
+12,12,Drug Reaction,Rest
+13,13,Drug Reaction,Light stretching
+14,14,Drug Reaction,Deep breathing
+15,15,Peptic ulcer diseae,Slow walking
+16,16,Peptic ulcer diseae,Deep breathing
+17,17,Peptic ulcer diseae,Gentle stretching
+18,18,AIDS,Light yoga
+19,19,AIDS,Breathing exercises
+20,20,AIDS,Slow walking
+21,21,Diabetes ,Brisk walking
+22,22,Diabetes ,Light yoga
+23,23,Diabetes ,Low‑intensity cycling
+24,24,Gastroenteritis,Rest
+25,25,Gastroenteritis,Deep breathing
+26,26,Gastroenteritis,Very light stretching
+27,27,Bronchial Asthma,Pursed‑lip breathing
+28,28,Bronchial Asthma,Deep breathing
+29,29,Bronchial Asthma,Slow walking
+30,30,Hypertension ,Deep breathing
+31,31,Hypertension ,Brisk walking
+32,32,Hypertension ,Light yoga
+33,33,Migraine,Deep breathing
+34,34,Migraine,Dark-room breathing relaxation
+35,35,Migraine,Light neck stretching
+36,36,Cervical spondylosis,Neck rotation
+37,37,Cervical spondylosis,Shoulder rolls
+38,38,Cervical spondylosis,Gentle stretching
+39,39,Paralysis (brain hemorrhage),Physiotherapy movement
+40,40,Paralysis (brain hemorrhage),Passive stretching
+41,41,Paralysis (brain hemorrhage),Breathing exercises
+42,42,Jaundice,Slow walking
+43,43,Jaundice,Breathing exercises
+44,44,Jaundice,Light stretching
+45,45,Malaria,Rest
+46,46,Malaria,Breathing exercises
+47,47,Malaria,Very light walking
+48,48,Chicken pox,Rest
+49,49,Chicken pox,Deep breathing
+50,50,Chicken pox,Slow walking
+51,51,Dengue,Rest
+52,52,Dengue,Deep breathing
+53,53,Dengue,Gentle stretching
+54,54,Typhoid,Slow walking
+55,55,Typhoid,Light stretching
+56,56,Typhoid,Deep breathing
+57,57,hepatitis A,Slow walking
+58,58,hepatitis A,Breathing exercises
+59,59,hepatitis A,Light stretching
+60,60,Hepatitis B,Slow walking
+61,61,Hepatitis B,Breathing exercises
+62,62,Hepatitis B,Gentle stretching
+63,63,Hepatitis C,Slow walking
+64,64,Hepatitis C,Breathing exercises
+65,65,Hepatitis C,Light stretching
+66,66,Hepatitis D,Rest
+67,67,Hepatitis D,Breathing exercises
+68,68,Hepatitis D,Light stretching
+69,69,Hepatitis E,Slow walking
+70,70,Hepatitis E,Deep breathing
+71,71,Hepatitis E,Light stretching
+72,72,Alcoholic hepatitis,Slow walking
+73,73,Alcoholic hepatitis,Deep breathing
+74,74,Alcoholic hepatitis,Gentle stretching
+75,75,Tuberculosis,Deep breathing
+76,76,Tuberculosis,Light walking
+77,77,Tuberculosis,Chest expansion exercises
+78,78,Common Cold,Light walking
+79,79,Common Cold,Steam breathing
+80,80,Common Cold,Gentle stretching
+81,81,Pneumonia,Deep breathing
+82,82,Pneumonia,Light physiotherapy
+83,83,Pneumonia,Slow walking
+84,84,Dimorphic hemmorhoids(piles),Deep breathing
+85,85,Dimorphic hemmorhoids(piles),Light walking
+86,86,Dimorphic hemmorhoids(piles),Gentle stretching
+87,87,Heart attack,Cardiac rehab walking
+88,88,Heart attack,Deep breathing
+89,89,Heart attack,Light physiotherapy
+90,90,Varicose veins,Leg elevation movement
+91,91,Varicose veins,Slow walking
+92,92,Varicose veins,Ankle rotations
+93,93,Hypothyroidism,Light yoga
+94,94,Hypothyroidism,Brisk walking
+95,95,Hypothyroidism,Gentle stretching
+96,96,Hyperthyroidism,Deep breathing
+97,97,Hyperthyroidism,Slow walking
+98,98,Hyperthyroidism,Light relaxation yoga
+99,99,Hypoglycemia,Light walking
+100,100,Hypoglycemia,Deep breathing
+101,101,Hypoglycemia,Gentle stretching
+102,102,Osteoarthristis,Slow walking
+103,103,Osteoarthristis,Knee mobility exercises
+104,104,Osteoarthristis,Gentle stretching
+105,105,Arthritis,Hand/leg joint mobility
+106,106,Arthritis,Slow walking
+107,107,Arthritis,Gentle stretching
+108,108,(vertigo) Paroymsal  Positional Vertigo,Epley maneuver (doctor guided)
+109,109,(vertigo) Paroymsal  Positional Vertigo,Slow walking with support
+110,110,(vertigo) Paroymsal  Positional Vertigo,Deep breathing
+111,111,Acne,Light yoga
+112,112,Acne,Deep breathing
+113,113,Acne,Walking
+114,114,Urinary tract infection,Slow walking
+115,115,Urinary tract infection,Deep breathing
+116,116,Urinary tract infection,Gentle stretching
+117,117,Psoriasis,Light yoga
+118,118,Psoriasis,Deep breathing
+119,119,Psoriasis,Walking
+120,120,Impetigo,Rest
+121,121,Impetigo,Deep breathing
+122,122,Impetigo,Slow walking
